@@ -1,0 +1,2 @@
+# second-project
+jQuery Exercise
