@@ -1,4 +1,44 @@
-topbox=#FFE4BE
-leftBox=#FF4825
-bottom=#A9A9A9
-rightBox=#72889C
+/* line 1, ../scss/app/_styles.scss */
+.topBox {
+  float: left;
+  display: inline-block;
+  background-color: #FFE4BE;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* line 13, ../scss/app/_styles.scss */
+.leftBox {
+  float: left;
+  display: inline-block;
+  background-color: #FF4825;
+  height: 200px;
+  width: 33%;
+  text-align: center;
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* line 25, ../scss/app/_styles.scss */
+.rightBox {
+  float: right;
+  display: inline-block;
+  background-color: #72889C;
+  height: 200px;
+  width: 33%;
+  text-align: center;
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* line 38, ../scss/app/_styles.scss */
+.bottomBox {
+  float: right;
+  display: inline-block;
+  position: relative;
+  background-color: #A9A9A9;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  font-family: helvetica, arial, sans-serif;
+}

@@ -1,168 +1,51 @@
-#title {
-    font-family: $defont;
-}
-body {
-    background-color: $background;
-
-}
-.razer1 {
-    position: absolute;
-    top: 0px;
-    left: 294px;
-}
-.razer2 {
-    position: absolute;
-    top: 0px;
-    left: 509px;
-}
-
-.toptext {
-
-    ul {
-        padding-left: 281px;
-
-        li {
-            float: left;
-            font-family: $defont;
-            display: inline-block;
-            padding-top: 0px;
-            padding-left: 5px;
-            padding-right: 130px;
-            font-size: $topsize;
-            color: $nwhite;
-            background-color: $background;
-        }
-    }
-}
-
-
-.buynow1 {
-    position: absolute;
-    left: 377px;
-    top: 13px;
-}
-.buynow2 {
-    position: absolute;
-    left: 540px;
-    top: 13px;
-}
-
-.allbar {
-    clear: left;
-    width: 844px;
-    background: $background;
-    .leftbar ul {
-        padding-left: 281px;
-                li {
-                    float: left;
-                    display: inline-block;
-                    padding: 0px 3px 0px 4px;
-                    margin-top: 3px;
-                    border-right: $defborder;
-                    font-family: $defont;
-                    color: $ngray;
-                    font-size: $defsize;
-                    background-color: $background;
-                }
-            }
-
-    .bar {
-
-        .left {
-
-        }
-    }
-    .centerbar ul {
-                li {
-                    float: left;
-                    display: inline-block;
-                    padding: 0px 3px 0px 4px;
-                    margin-top: 3px;
-                    border-right: $defborder;
-                    font-family: $defont;
-                    color: $ngray;
-                    font-size: $defsize;
-                    background-color: $background;
-                }
-            }
-    .rightbar ul {
-                li {
-                    float: left;
-                    display: inline-block;
-                    padding: 0px 3px 0px 4px;
-                    margin-top: 3px;
-                    border-right: $defborder;
-                    font-family: $defont;
-                    color: $ngray;
-                    font-size: $defsize;
-                    background-color: $background;
-                }
-            }
-        }
-.discount {
-    clear: left;
+.topBox {
     float: left;
-    width: 844px;
-    padding-top: 10px;
-    padding-left: 285px;
-    padding-bottom: 10px;
-    background-color: $discountbckgrnd;
+    display: inline-block;
+    background-color: $topBox;
+    height: $defheight;
+    width: 100%;
+    text-align: $defalign;
     font-family: $defont;
-    color: $nwhite;
-    font-size: $defadsize;
-    .getitlink {
-        display: inline-block;
-        color: $ngreen;
-        font-family: $defont;
+    .topTri {
+
     }
 }
-.caption1 a {
-    position: absolute;
-    font-family: $defont;
-    font-size: 27px;
-    color: $ngreen;
-    left: 376px;
-    top: 515px;
-}
-.caption2 a {
-    position: absolute;
-    top: 690px;
-    left: 420px;
-    font-family: $defont;
-    font-size: 20px;
-    color: $ngreen;
-}
-.caption3 a {
-    position: absolute;
-    top: 120px;
-    left: 150px;
-    font-family: $defont;
-    color: $ngray;
-}
-.caption4 a {
-    position: absolute;
-    left: 740px;
-    top: 120px;
-    font-family: $defont;
-    color: $nwhite;
-}
-.BESTOF {
-    position: absolute;
-    top: 260px;
-    left: 290px;
-    opacity: 0.7;
-}
-.backgrnd {
+.leftBox {
     float: left;
-    display: block;
+    display: inline-block;
+    background-color: $leftBox;
+    height: $midheight;
+    width: 33%;
+    text-align: $defalign;
+    font-family: $defont;
+    .leftTri {
+
+    }
 }
-.squiggle {
-    position: absolute;
-    left: 900px;
-    top: 10px;
+.rightBox {
+    float: right;
+    display: inline-block;
+    background-color: $rightBox;
+    height: $midheight;
+    width: 33%;
+    text-align: $defalign;
+    font-family: $defont;
+    .rightTri {
+
+    }
 }
-.play {
-    position: absolute;
-    left: 550px;
-    top: 670px;
+
+.bottomBox {
+    float: right;
+    display: inline-block;
+    position: relative;
+    background-color: $bottom;
+    height: $defheight;
+    width: 100%;
+    text-align: $defalign;
+    font-family: $defont;
+    .rightTri {
+
+    }
 }
+
