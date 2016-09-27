@@ -6,10 +6,19 @@
   height: 150px;
   width: 100%;
   text-align: center;
+  line-height: 150px;
   font-family: helvetica, arial, sans-serif;
 }
+/* line 10, ../scss/app/_styles.scss */
+.topBox .arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #f00;
+}
 
-/* line 13, ../scss/app/_styles.scss */
+/* line 19, ../scss/app/_styles.scss */
 .leftBox {
   float: left;
   display: inline-block;
@@ -17,22 +26,41 @@
   height: 200px;
   width: 33%;
   text-align: center;
+  line-height: 200px;
   font-family: helvetica, arial, sans-serif;
 }
+/* line 28, ../scss/app/_styles.scss */
+.leftBox .arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #FF4825;
+}
 
-/* line 25, ../scss/app/_styles.scss */
+/* line 37, ../scss/app/_styles.scss */
 .rightBox {
   float: right;
+  clear: right;
   display: inline-block;
   background-color: #72889C;
   height: 200px;
   width: 33%;
   text-align: center;
+  line-height: 200px;
   font-family: helvetica, arial, sans-serif;
 }
+/* line 47, ../scss/app/_styles.scss */
+.rightBox .arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #72889C;
+}
 
-/* line 38, ../scss/app/_styles.scss */
-.bottomBox {
+/* line 56, ../scss/app/_styles.scss */
+.bottom {
   float: right;
   display: inline-block;
   position: relative;
@@ -40,5 +68,15 @@
   height: 150px;
   width: 100%;
   text-align: center;
+  line-height: 150px;
   font-family: helvetica, arial, sans-serif;
+}
+/* line 66, ../scss/app/_styles.scss */
+.bottom .arrow-up {
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #A9A9A9;
 }

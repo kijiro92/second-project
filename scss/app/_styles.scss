@@ -5,8 +5,14 @@
     height: $defheight;
     width: 100%;
     text-align: $defalign;
+    line-height: 150px;
     font-family: $defont;
-    .topTri {
+    .arrow-down {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #f00;
 
     }
 }
@@ -17,25 +23,37 @@
     height: $midheight;
     width: 33%;
     text-align: $defalign;
+    line-height: 200px;
     font-family: $defont;
-    .leftTri {
+    .arrow-right {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid $leftBox;
 
     }
 }
 .rightBox {
     float: right;
+    clear: right;
     display: inline-block;
     background-color: $rightBox;
     height: $midheight;
     width: 33%;
     text-align: $defalign;
+    line-height: 200px;
     font-family: $defont;
-    .rightTri {
+    .arrow-left {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right:10px solid $rightBox;
 
     }
 }
-
-.bottomBox {
+.bottom {
     float: right;
     display: inline-block;
     position: relative;
@@ -43,8 +61,15 @@
     height: $defheight;
     width: 100%;
     text-align: $defalign;
+    line-height: 150px;
     font-family: $defont;
-    .rightTri {
+    .arrow-up {
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid $bottom;
 
     }
 }
