@@ -1,14 +1,16 @@
 /* line 1, ../scss/app/_styles.scss */
 p {
+  font-family: "Nunito", sans-serif;
   position: absolute;
-  top: 200px;
+  top: 210px;
   left: 500px;
   height: 100px;
   width: 22%;
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 1.5;
 }
 
-/* line 11, ../scss/app/_styles.scss */
+/* line 12, ../scss/app/_styles.scss */
 .topBox {
   float: left;
   display: inline-block;
@@ -17,10 +19,10 @@ p {
   width: 100%;
   text-align: center;
   line-height: 110px;
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
-/* line 22, ../scss/app/_styles.scss */
+/* line 23, ../scss/app/_styles.scss */
 .arrow-down {
   position: absolute;
   left: 625px;
@@ -32,7 +34,7 @@ p {
   border-top: 10px solid #FFE4BE;
 }
 
-/* line 33, ../scss/app/_styles.scss */
+/* line 34, ../scss/app/_styles.scss */
 .leftBox {
   float: left;
   display: inline-block;
@@ -41,10 +43,10 @@ p {
   width: 33%;
   text-align: center;
   line-height: 170px;
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
-/* line 44, ../scss/app/_styles.scss */
+/* line 45, ../scss/app/_styles.scss */
 .arrow-right {
   position: absolute;
   left: 420px;
@@ -56,7 +58,7 @@ p {
   border-left: 10px solid #FF4825;
 }
 
-/* line 55, ../scss/app/_styles.scss */
+/* line 56, ../scss/app/_styles.scss */
 .rightBox {
   float: right;
   clear: right;
@@ -66,10 +68,10 @@ p {
   width: 33%;
   text-align: center;
   line-height: 170px;
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
-/* line 67, ../scss/app/_styles.scss */
+/* line 68, ../scss/app/_styles.scss */
 .arrow-left {
   position: absolute;
   top: 250px;
@@ -81,7 +83,7 @@ p {
   border-right: 10px solid #72889C;
 }
 
-/* line 78, ../scss/app/_styles.scss */
+/* line 79, ../scss/app/_styles.scss */
 .bottom {
   float: right;
   display: inline-block;
@@ -91,10 +93,10 @@ p {
   width: 100%;
   text-align: center;
   line-height: 110px;
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
-/* line 90, ../scss/app/_styles.scss */
+/* line 91, ../scss/app/_styles.scss */
 .arrow-up {
   width: 0;
   height: 0;
