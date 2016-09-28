@@ -1,4 +1,14 @@
 /* line 1, ../scss/app/_styles.scss */
+p {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  height: 100px;
+  width: 22%;
+  font-size: 14px;
+}
+
+/* line 11, ../scss/app/_styles.scss */
 .topBox {
   float: left;
   display: inline-block;
@@ -6,19 +16,23 @@
   height: 150px;
   width: 100%;
   text-align: center;
-  line-height: 150px;
+  line-height: 110px;
   font-family: helvetica, arial, sans-serif;
 }
-/* line 10, ../scss/app/_styles.scss */
-.topBox .arrow-down {
+
+/* line 22, ../scss/app/_styles.scss */
+.arrow-down {
+  position: absolute;
+  left: 625px;
+  top: 158px;
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #f00;
+  border-top: 10px solid #FFE4BE;
 }
 
-/* line 19, ../scss/app/_styles.scss */
+/* line 33, ../scss/app/_styles.scss */
 .leftBox {
   float: left;
   display: inline-block;
@@ -26,11 +40,15 @@
   height: 200px;
   width: 33%;
   text-align: center;
-  line-height: 200px;
+  line-height: 170px;
   font-family: helvetica, arial, sans-serif;
 }
-/* line 28, ../scss/app/_styles.scss */
-.leftBox .arrow-right {
+
+/* line 44, ../scss/app/_styles.scss */
+.arrow-right {
+  position: absolute;
+  left: 420px;
+  top: 250px;
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
@@ -38,7 +56,7 @@
   border-left: 10px solid #FF4825;
 }
 
-/* line 37, ../scss/app/_styles.scss */
+/* line 55, ../scss/app/_styles.scss */
 .rightBox {
   float: right;
   clear: right;
@@ -47,11 +65,15 @@
   height: 200px;
   width: 33%;
   text-align: center;
-  line-height: 200px;
+  line-height: 170px;
   font-family: helvetica, arial, sans-serif;
 }
-/* line 47, ../scss/app/_styles.scss */
-.rightBox .arrow-left {
+
+/* line 67, ../scss/app/_styles.scss */
+.arrow-left {
+  position: absolute;
+  top: 250px;
+  left: 837px;
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
@@ -59,7 +81,7 @@
   border-right: 10px solid #72889C;
 }
 
-/* line 56, ../scss/app/_styles.scss */
+/* line 78, ../scss/app/_styles.scss */
 .bottom {
   float: right;
   display: inline-block;
@@ -68,14 +90,17 @@
   height: 150px;
   width: 100%;
   text-align: center;
-  line-height: 150px;
+  line-height: 110px;
   font-family: helvetica, arial, sans-serif;
 }
-/* line 66, ../scss/app/_styles.scss */
-.bottom .arrow-up {
+
+/* line 90, ../scss/app/_styles.scss */
+.arrow-up {
   width: 0;
   height: 0;
   position: absolute;
+  left: 625px;
+  top: 348px;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-bottom: 10px solid #A9A9A9;

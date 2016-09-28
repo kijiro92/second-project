@@ -1,3 +1,13 @@
+p {
+
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    height: 100px;
+    width: 22%;
+    font-size: 14px;
+
+}
 .topBox {
     float: left;
     display: inline-block;
@@ -5,17 +15,21 @@
     height: $defheight;
     width: 100%;
     text-align: $defalign;
-    line-height: 150px;
+    line-height: 110px;
     font-family: $defont;
-    .arrow-down {
-        width: 0;
-        height: 0;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-top: 10px solid #f00;
-
-    }
 }
+
+.arrow-down {
+    position: absolute;
+    left: 625px;
+    top: 158px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid $topBox;
+}
+
 .leftBox {
     float: left;
     display: inline-block;
@@ -23,17 +37,21 @@
     height: $midheight;
     width: 33%;
     text-align: $defalign;
-    line-height: 200px;
+    line-height: 170px;
     font-family: $defont;
-    .arrow-right {
+}
+
+.arrow-right {
+        position: absolute;
+        left: 420px;
+        top: 250px;
         width: 0;
         height: 0;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
         border-left: 10px solid $leftBox;
-
-    }
 }
+
 .rightBox {
     float: right;
     clear: right;
@@ -42,17 +60,21 @@
     height: $midheight;
     width: 33%;
     text-align: $defalign;
-    line-height: 200px;
+    line-height: 170px;
     font-family: $defont;
-    .arrow-left {
-        width: 0;
-        height: 0;
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid transparent;
-        border-right:10px solid $rightBox;
-
-    }
 }
+
+.arrow-left {
+    position: absolute;
+    top: 250px;
+    left: 837px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right:10px solid $rightBox;
+}
+
 .bottom {
     float: right;
     display: inline-block;
@@ -61,16 +83,17 @@
     height: $defheight;
     width: 100%;
     text-align: $defalign;
-    line-height: 150px;
+    line-height: 110px;
     font-family: $defont;
-    .arrow-up {
-        width: 0;
-        height: 0;
-        position: absolute;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-bottom: 10px solid $bottom;
-
-    }
 }
 
+.arrow-up {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 625px;
+    top: 348px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid $bottom;
+}
