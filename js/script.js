@@ -30,7 +30,7 @@ $(document).ready(function(){
 
         $('.text1').css({"font-style": "italic" , "color":"#C4AA8E"});
 
-        $('.top').show("slow");
+        $('.top').fadeIn("slow");
 
         $('.arrow-down').show("fast")
 
@@ -56,7 +56,7 @@ $(document).ready(function(){
 
         $('.text3').css({"font-style": "italic" , "color":"#474747"});
 
-        $('.bottomBox').show("slow");
+        $('.bottomBox').fadeIn("slow");
 
         $('.arrow-up').show("fast")
 
@@ -82,7 +82,7 @@ $(document).ready(function(){
 
         $('.text2').css({"font-style": "italic" , "color":"#424F5C"});
 
-        $('.right').show("slow");
+        $('.right').fadeIn("slow");
 
         $('.arrow-left').show("fast")
 
@@ -108,7 +108,7 @@ $(document).ready(function(){
 
         $('.text4').css({"font-style": "italic" , "color":"#B22C15"});
 
-        $('.left').show("slow");
+        $('.left').fadeIn();
 
         $('.arrow-right').show("fast")
 

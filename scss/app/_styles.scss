@@ -1,17 +1,7 @@
-p {
-    font-family: $defont;
-    position: absolute;
-    top: 210px;
-    left: 500px;
-    height: 100px;
-    width: 22%;
-    font-size: 13px;
-    line-height: 1.5;
-}
-
 
 .topBox {
     float: left;
+    position: relative;
     display: inline-block;
     background-color: $topBox;
     height: $defheight;
@@ -19,67 +9,82 @@ p {
     text-align: $defalign;
     line-height: 110px;
     font-family: $defont;
-}
-
-.arrow-down {
-    position: absolute;
-    left: 625px;
-    top: 158px;
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid $topBox;
+        &::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-top: 15px solid $topBox;
+    }
 }
 
 .leftBox {
     float: left;
-    display: inline-block;
+    position: relative;
     background-color: $leftBox;
     height: $midheight;
     width: 33%;
     text-align: $defalign;
     line-height: 170px;
     font-family: $defont;
-}
-
-.arrow-right {
+        &::before {
+        content: '';
         position: absolute;
-        left: 420px;
-        top: 250px;
+        margin-left: 49.5%;
+        margin-top: 90px;
         width: 0;
         height: 0;
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid transparent;
-        border-left: 10px solid $leftBox;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 15px solid $leftBox;
+    }
+}
+
+.centerBox {
+    position: relative;
+    float: left;
+    height: $midheight;
+    width: 33%;
+
+    p {
+        font-family: $defont;
+        position: absolute;
+        text-align: left;
+        margin-top: 60px;
+        margin-left: 60px;
+        height: 100px;
+        width: 70%;
+        font-size: 13px;
+        line-height: 1.5;
+    }
 }
 
 .rightBox {
     float: right;
     clear: right;
-    display: inline-block;
     background-color: $rightBox;
     height: $midheight;
     width: 33%;
     text-align: $defalign;
     line-height: 170px;
     font-family: $defont;
-}
-
-.arrow-left {
-    position: absolute;
-    top: 250px;
-    left: 837px;
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right:10px solid $rightBox;
+    &::before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        margin-left: -17.5%;
+        margin-top: 90px;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-right: 15px solid $rightBox;
+    }
 }
 
 .bottom {
     float: right;
-    display: inline-block;
     position: relative;
     background-color: $bottom;
     height: $defheight;
@@ -87,15 +92,14 @@ p {
     text-align: $defalign;
     line-height: 110px;
     font-family: $defont;
-}
-
-.arrow-up {
-    width: 0;
-    height: 0;
-    position: absolute;
-    left: 625px;
-    top: 348px;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid $bottom;
+    &::before {
+        content: '';
+        position: absolute;
+        margin-top: -12px;
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 15px solid $bottom;
+    }
 }
